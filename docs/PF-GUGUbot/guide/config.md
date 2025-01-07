@@ -4,7 +4,7 @@
 
 ### NapCat
 
-## PF-GUGUbot 
+## PF-gugubot 
 ```yaml
 admin_id: # 管理员 QQ 号,请以相同格式填写！
 #正确示范：
