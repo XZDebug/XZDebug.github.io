@@ -10,16 +10,16 @@ actions:
 features:
   - title: GUGUbot
     details: MCDR的QQ机器人插件，集QQ群管理和白名单管理一体，添加许多功能。
-    link: /PF-gugubot
+    link: /PF-gugubot/
   - title: WebUI
     details: MCDR的WebUI管理插件，管理PF系列插件配置和其它配置，提供插件管理和配置修改功能。
-    link: /PF-webui
+    link: /PF-webui/
   - title: CQ-QQ-API
     details: MCDR的QQ机器人API插件，支持OneBot协议的正向WebSocketQQ。
-    link: /PF-cq-api
-  - title: Player IP Logger
+    link: /PF-cq-api/
+  - title: Player IP Logger/
     details: MCDR的玩家IP记录插件，额外提供API和基于IP的玩家封禁功能。
-    link: /PF-player_ip_logger
+    link: /PF-player_ip_logger/
 ---
 
 # PFingan系列插件
