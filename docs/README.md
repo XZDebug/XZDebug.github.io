@@ -24,7 +24,7 @@ features:
 
 # PFingan系列插件
 
-PFingan服务器提供和开发的MCDR插件，包括但不限于QQ群管、聊天互通、服务器管理、IP记录、IP封禁、WebUI等等。
+PFingan服务器提供和开发的MCDR插件，包括但不限于QQ群管、聊天互通、服务器管理、IP记录、IP封禁、WebUI等。
 
 ## 插件列表
 
