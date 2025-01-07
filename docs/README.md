@@ -28,16 +28,16 @@ PFingan服务器提供和开发的MCDR插件，包括但不限于QQ群管、聊�
 
 ## 插件列表
 
-### [GUGUbot](./PF-gugubot)
+### [GUGUbot](./PF-gugubot/)
 MCDR的QQ机器人插件，集QQ群管理和白名单管理一体，添加许多功能。
 
-### [WebUI](./PF-webui)
+### [WebUI](./PF-webui/)
 MCDR的WebUI管理插件，管理PF系列插件配置和其它配置，提供插件管理和配置修改功能。
 
-### [CQ-QQ-API](./PF-cq-api)
+### [CQ-QQ-API](./PF-cq-api/)
 MCDR的QQ机器人API插件，支持OneBot协议的正向WebSocketQQ。
 
-### [Player IP Logger](./PF-player_ip_logger)
+### [Player IP Logger](./PF-player_ip_logger/)
 MCDR的玩家IP记录插件，额外提供API和基于IP的玩家封禁功能。
 
 > AGPL-3.0 Licensed | Copyright © 2022-present PF-plugins
