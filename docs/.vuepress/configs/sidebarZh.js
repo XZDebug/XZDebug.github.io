@@ -2,66 +2,68 @@
 
 export const sidebarZh = [
   {
-    text: '快速开始',
+    text: 'PF-plugins',
+    collapsible: true,
     children: [
       {
-        text: '安装',
-        link: '/guide/getting-started.md',
+        text: 'PF-gugubot',
+        collapsible: true,
+        children: [
+          {
+            text: '安装',
+            collapsible: true,
+            link: '/PF-gugubot/guide/getting-started.md',
+          },
+          {
+            text: '配置',
+            collapsible: true,
+            link: '/PF-gugubot/guide/config.md',
+          },
+        ],
       },
       {
-        text: '配置',
-        link: '/guide/config.md',
-      },
-    ],
-  },
-  {
-    text: '常见问题',
-    link: '/faq/',
-  },
-  {
-    text: '文档',
-    children: [
-      {
-        text: 'API 参考',
-        link: '/docs/api/',
-      },
-      {
-        text: '组件使用',
-        link: '/docs/components/',
+        text: 'PF-cq-api',
+        collapsible: true,
+        children: [
+          {
+            text: '安装',
+            collapsed: true,
+            link: '/PF-cq-api/guide/getting-started.md',
+          },
+          {
+            text: '配置',
+            collapsed: true,
+            link: '/PF-cq-api/guide/config.md',
+          },
+        ],
       },
       {
-        text: '主题定制',
-        link: '/docs/theme/',
-      },
-    ],
-  },
-  {
-    text: `了解最新版`,
-    children: [
-      {
-        text: '更新日志',
-        link: 'https://github.com/vuepress/core/blob/main/CHANGELOG.md',
-      },
-      {
-        text: '下载最新版',
-        link: 'https://github.com/LoosePrince/PF-GUGUBot/releases',
-      },
-    ],
-  },
-  {
-    text: '深入了解',
-    children: [
-      {
-        text: '架构设计',
-        link: '/advanced/architecture/',
+        text: 'PF-webui',
+        collapsible: true,
+        children: [
+          {
+            text: '安装',
+            link: '/PF-webui/guide/getting-started.md',
+          },
+          {
+            text: '配置',
+            link: '/PF-webui/guide/config.md',
+          },
+        ],
       },
       {
-        text: '插件开发',
-        link: '/advanced/plugin-development/',
-      },
-      {
-        text: '主题扩展',
-        link: '/advanced/theme-extension/',
+        text: 'PF-player_ip_logger',
+        collapsible: true,
+        children: [
+          {
+            text: '安装',
+            link: '/PF-player_ip_logger/guide/getting-started.md',
+          },
+          {
+            text: '配置',
+            link: '/PF-player_ip_logger/guide/config.md',
+          },
+        ],
       },
     ],
   },
@@ -71,6 +73,7 @@ export const sidebarZh = [
   },
   {
     text: '资源链接',
+    collapsible: true,
     children: [
       {
         text: '官方文档',
@@ -86,4 +89,4 @@ export const sidebarZh = [
       },
     ],
   },
-]
+];

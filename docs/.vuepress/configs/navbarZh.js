@@ -6,25 +6,29 @@ export const navbarZh = [
     link: '/',
   },
   {
-    text: '使用指南',
-    link: '/guide/',
+    text: '插件列表',
+    children: [
+      {
+        text: 'PF-gugubot',
+        link: '/PF-gugubot/'
+      },
+      {
+        text: 'PF-cq-api',
+        link: '/PF-cq-api/',
+      },
+      {
+        text: 'PF-webui',
+        link: '/PF-webui/',
+      },
+      {
+        text: 'PF-webui',
+        link: '/PF-webui/',
+      },
+    ],
   },
   {
     text: '常见问题',
     link: '/faq/',
-  },
-  {
-    text: `了解最新版`,
-    children: [
-      {
-        text: '更新日志',
-        link: 'https://github.com/vuepress/core/blob/main/CHANGELOG.md',
-      },
-      {
-        text: '下载最新版',
-        link: 'https://github.com/LoosePrince/PF-GUGUBot/releases',
-      },
-    ],
   },
   {
     text: '支持与反馈',
@@ -32,6 +36,6 @@ export const navbarZh = [
   },
   {
     text: 'Github',
-    link: 'https://github.com/LoosePrince/PF-GUGUBot',
+    link: 'https://github.com/LoosePrince/',
   },
 ]
