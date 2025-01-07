@@ -1,0 +1,1 @@
+   FP-GUGUbot 是基于 [MCDReforged](https://mcdreforged.com/zh-CN) 的 QQ 机器人插件
