@@ -2,6 +2,7 @@
 
 ## QQ 机器人
 
+### NapCat
 
 ## PF-GUGUbot 
 ```yaml
