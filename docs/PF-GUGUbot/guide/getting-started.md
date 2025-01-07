@@ -21,9 +21,9 @@
    pip install pygame requests ruamel.yaml websocket-client "watchdog>=5.0.2" "pathlib>=1.0.1"
    ```
 2. 前往插件 [MCDR 插件仓库](https://mcdreforged.com/zh-CN/plugins) 下载以下插件并放入根目录下的 `plugins` 文件夹:
-   - [PF-GUGUbot](https://mcdreforged.com/zh-CN/plugin/gugubot/)
+   - [PF-gugubot](https://mcdreforged.com/zh-CN/plugin/gugubot/)
    - [PF-cq_qq_api](https://mcdreforged.com/zh-CN/plugin/cq_qq_api)
-   - [player_ip_logger](https://mcdreforged.com/zh-CN/plugin/player_ip_logger)
+   - [PF-player_ip_logger](https://mcdreforged.com/zh-CN/plugin/player_ip_logger)
   
 ## 安装 QQBOT
    - 需要支持基于 CQ 码的正向 WebSocket QQ 机器人。
