@@ -12,6 +12,7 @@ export default defineUserConfig({
     logo: '/images/favicon.ico',
     navbar: navbarZh,
     sidebar: sidebarZh,
+    sidebarDepth: 1,
   }),
 
     // 在 head 配置项中添加 favicon 图标

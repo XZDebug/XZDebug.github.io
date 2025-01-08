@@ -10,14 +10,29 @@ export const sidebarZh = [
         collapsible: true,
         children: [
           {
-            text: '安装',
+            text: '开始前的工作',
+            collapsible: true,
+            link: '/PF-gugubot/guide/before-started.md',
+          },
+          {
+            text: '快速开始',
             collapsible: true,
             link: '/PF-gugubot/guide/getting-started.md',
           },
           {
-            text: '配置',
+            text: '快速配置',
             collapsible: true,
-            link: '/PF-gugubot/guide/config.md',
+            link: '/PF-gugubot/guide/getting-config.md',
+          },
+          {
+            text: '完整配置',
+            collapsible: true,
+            link: '/PF-gugubot/config/config.md',
+          },
+          {
+            text: '自定义风格',
+            collapsible: true,
+            link: '/PF-gugubot/config/extra_style.md',
           },
         ],
       },
