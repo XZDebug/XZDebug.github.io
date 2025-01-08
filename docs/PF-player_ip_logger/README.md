@@ -6,7 +6,7 @@ heroImage: /images/pf-gugubot.svg
 heroText: PF-GUGUbot
 tagline: PFingan服务器 MCDR的QQ机器人插件，集QQ群管理和白名单管理一体，添加许多功能。
 actions:
-  - text: 开始💡
+  - text: 快速开始
     link: ./guide/before-started.md
     type: primary
 
