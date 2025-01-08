@@ -40,7 +40,7 @@ MCDR的QQ机器人API插件，支持OneBot协议的正向WebSocketQQ。
 ### [PF-player_ip_logger](./PF-player_ip_logger/)
 MCDR的玩家IP记录插件，额外提供API和基于IP的玩家封禁功能。
 
-> AGPL-3.0 Licensed | Copyright © 2022-present PF-plugins
+> GPL-3.0 Licensed | Copyright © 2022-present PF-plugins
 
 ---
 

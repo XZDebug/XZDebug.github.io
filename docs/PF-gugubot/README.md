@@ -63,5 +63,5 @@ features:
     details: 待开发中ing
 
 copyright: false
-footer: AGPL-3.0 Licensed | Copyright © 2022-present PF-GUGUbot
+footer: GPL-3.0 Licensed | Copyright © 2022-present PF-GUGUbot
 ---
