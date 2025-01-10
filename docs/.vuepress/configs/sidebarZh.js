@@ -20,17 +20,12 @@ export const sidebarZh = [
             link: '/PF-gugubot/guide/getting-started.md',
           },
           {
-            text: '快速配置',
-            collapsible: true,
-            link: '/PF-gugubot/guide/getting-config.md',
-          },
-          {
-            text: '完整配置',
+            text: 'Config.yml',
             collapsible: true,
             link: '/PF-gugubot/config/config.md',
           },
           {
-            text: '自定义风格',
+            text: '关于自定义风格',
             collapsible: true,
             link: '/PF-gugubot/config/extra_style.md',
           },
