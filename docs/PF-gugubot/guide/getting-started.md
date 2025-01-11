@@ -21,17 +21,36 @@
 ## 配置文件
    配置文件位置如图
    ```shell
-   └─ MCDR
-   ├─ config
-   │  ├─ GUGUbot
-   │  │  └─ config.yml # FP-gugubot 配置文件
-   │  ├─ cq_qq_api
-   │  │  └─ config.json # FP-cq-api 配置文件
-   │  └─ ...
-   ├─ log #日志位置
-   ├─ server # MC 服务器文件位置
-   ├─
-   └─ 
+MCDR
+├── config
+│   ├── cq_qq_api
+│   │   ├── config.json
+│   │   └── config_lang.json
+│   ├── GUGUbot
+│   │   ├── font
+│   │   ├── ban_word.json
+│   │   ├── bound.jpg
+│   │   ├── config.yml
+│   │   ├── GUGUbot.json
+│   │   ├── help_msg.json
+│   │   ├── key_word_ingame.json
+│   │   ├── key_word.json
+│   │   ├── shenheman.json
+│   │   ├── start_commands.json
+│   │   └── uuid_qqid.json
+│   └── player_ip_logger
+│       └── config.json
+├── plugins
+│   ├── cq_qq_api.mcdr
+│   ├── GUGUbot.mcdr
+│   ├── MoreGameEvents.mcdr
+│   ├── OnlinePlayerAPI.mcdr
+│   ├── player_ip_logger.mcdr
+│   └── WhitelistAPI.mcdr
+├── logs
+├── server
+├── config.yml
+└── permission.yml
    ```
    admin_id: # 管理员 QQ 号,请以相同格式填写！
    #正确示范：
