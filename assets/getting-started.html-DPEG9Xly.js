@@ -1,0 +1,43 @@
+import{_ as e,c as l,f as i,a as t,e as s,b as p,d as c,r,o as d}from"./app-mkONSszS.js";const o={};function u(m,n){const a=r("RouteLink");return d(),l("div",null,[n[3]||(n[3]=i(`<h1 id="安装指南" tabindex="-1"><a class="header-anchor" href="#安装指南"><span>安装指南</span></a></h1><h2 id="安装插件" tabindex="-1"><a class="header-anchor" href="#安装插件"><span>安装插件</span></a></h2><h3 id="mcdr-快捷安装" tabindex="-1"><a class="header-anchor" href="#mcdr-快捷安装"><span>MCDR 快捷安装</span></a></h3><ul><li>在已经开启的 MCDReforged MC 服务端输入以下指令可快捷安装插件及前置：<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">!!MCDR plugin install gugubot</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div></li></ul><h3 id="手动下载安装" tabindex="-1"><a class="header-anchor" href="#手动下载安装"><span>手动下载安装</span></a></h3><ol><li>下载插件依赖<div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">pip <span class="token function">install</span> pygame requests ruamel.yaml websocket-client <span class="token string">&quot;watchdog&gt;=5.0.2&quot;</span> <span class="token string">&quot;pathlib&gt;=1.0.1&quot;</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div></li><li>前往插件 <a href="https://mcdreforged.com/zh-CN/plugins" target="_blank" rel="noopener noreferrer">MCDR 插件仓库</a> 下载以下插件并放入 MCDR 根目录下的 <code>plugins</code> 文件夹: <ul><li><a href="https://mcdreforged.com/zh-CN/plugin/gugubot/" target="_blank" rel="noopener noreferrer">PF-gugubot</a></li><li><a href="https://mcdreforged.com/zh-CN/plugin/cq_qq_api" target="_blank" rel="noopener noreferrer">PF-cq_qq_api</a></li><li><a href="https://mcdreforged.com/zh-CN/plugin/player_ip_logger" target="_blank" rel="noopener noreferrer">PF-player_ip_logger</a></li><li><a href="https://mcdreforged.com/zh-CN/plugin/mg_events" target="_blank" rel="noopener noreferrer">mg_events</a></li></ul></li></ol><h2 id="配置文件" tabindex="-1"><a class="header-anchor" href="#配置文件"><span>配置文件</span></a></h2><p>配置文件位置如图</p><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">MCDR</span>
+<span class="line">├── config</span>
+<span class="line">│   ├── GUGUbot</span>
+<span class="line">│   │   ├── font</span>
+<span class="line">│   │   ├── ban_word.json</span>
+<span class="line">│   │   ├── bound.jpg</span>
+<span class="line">│   │   ├── config.yml <span class="token comment"># PF-gugubot 配置文件</span></span>
+<span class="line">│   │   ├── GUGUbot.json</span>
+<span class="line">│   │   ├── help_msg.json</span>
+<span class="line">│   │   ├── key_word_ingame.json</span>
+<span class="line">│   │   ├── key_word.json</span>
+<span class="line">│   │   ├── shenheman.json</span>
+<span class="line">│   │   ├── start_commands.json</span>
+<span class="line">│   │   └── uuid_qqid.json</span>
+<span class="line">│   ├── cq_qq_api</span>
+<span class="line">│   │   ├── config.json <span class="token comment"># PF-cq-api 配置文件</span></span>
+<span class="line">│   │   └── config_lang.json</span>
+<span class="line">│   └── player_ip_logger</span>
+<span class="line">│       └── config.json</span>
+<span class="line">├── plugins <span class="token comment">#插件文件位置</span></span>
+<span class="line">│   ├── cq_qq_api.mcdr</span>
+<span class="line">│   ├── GUGUbot.mcdr</span>
+<span class="line">│   <span class="token punctuation">..</span>.</span>
+<span class="line">├── logs <span class="token comment">#MCDR 日志</span></span>
+<span class="line">├── server</span>
+<span class="line">├── config.yml</span>
+<span class="line">└── permission.yml</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-yaml line-numbers-mode" data-highlighter="prismjs" data-ext="yml" data-title="yml"><pre><code><span class="line"><span class="token key atrule">admin_id</span><span class="token punctuation">:</span> <span class="token comment"># 管理员 QQ 号,请以相同格式填写！</span></span>
+<span class="line"><span class="token comment">#正确示范：</span></span>
+<span class="line"><span class="token punctuation">-</span> <span class="token number">1234563</span></span>
+<span class="line"><span class="token comment">#错误示范：</span></span>
+<span class="line"><span class="token punctuation">-</span><span class="token number">1234563</span></span>
+<span class="line">1234563</span>
+<span class="line"><span class="token punctuation">...</span></span>
+<span class="line"><span class="token key atrule">group_id</span><span class="token punctuation">:</span> <span class="token comment"># QQ 群号,要监听,转发的 QQ 群号,格式同上。</span></span>
+<span class="line"><span class="token punctuation">-</span> <span class="token number">1234561</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果启动时提示缺少配置文件，请下载 <code>config_default.yml</code> 文件，将其重命名为 <code>config.yml</code>，并放入 <code>/config/GUGUbot/config.yml</code> 路径下。</p><h3 id="pf-cq-qq-api" tabindex="-1"><a class="header-anchor" href="#pf-cq-qq-api"><span>PF-cq_qq_api</span></a></h3><div class="language-json line-numbers-mode" data-highlighter="prismjs" data-ext="json" data-title="json"><pre><code><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">    <span class="token property">&quot;host&quot;</span><span class="token operator">:</span> <span class="token string">&quot;127.0.0.1&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 更改为 QQ 机器人地址 *</span></span>
+<span class="line">    <span class="token property">&quot;port&quot;</span><span class="token operator">:</span> <span class="token number">8080</span><span class="token punctuation">,</span> <span class="token comment">// 正向 WebSocket 端口 *</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,13)),t("p",null,[n[1]||(n[1]=s("上述配置为必要项。如果需要更深入的自定义体验，请阅读完整的")),p(a,{to:"/PF-gugubot/config/config.html"},{default:c(()=>n[0]||(n[0]=[s("配置文档")])),_:1}),n[2]||(n[2]=s("。"))])])}const g=e(o,[["render",u],["__file","getting-started.html.vue"]]),b=JSON.parse('{"path":"/PF-gugubot/guide/getting-started.html","title":"安装指南","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"安装插件","slug":"安装插件","link":"#安装插件","children":[{"level":3,"title":"MCDR 快捷安装","slug":"mcdr-快捷安装","link":"#mcdr-快捷安装","children":[]},{"level":3,"title":"手动下载安装","slug":"手动下载安装","link":"#手动下载安装","children":[]}]},{"level":2,"title":"配置文件","slug":"配置文件","link":"#配置文件","children":[{"level":3,"title":"PF-cq_qq_api","slug":"pf-cq-qq-api","link":"#pf-cq-qq-api","children":[]}]}],"git":{"updatedTime":1736566016000,"contributors":[{"name":"Dreamwxz","username":"Dreamwxz","email":"82244600+Dreamwxz@users.noreply.github.com","commits":11,"url":"https://github.com/Dreamwxz"}]},"filePathRelative":"PF-gugubot/guide/getting-started.md"}');export{g as comp,b as data};
