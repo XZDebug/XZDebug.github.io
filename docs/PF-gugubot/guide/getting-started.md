@@ -23,14 +23,11 @@
    ```shell
 MCDR
 ├── config
-│   ├── cq_qq_api
-│   │   ├── config.json
-│   │   └── config_lang.json
 │   ├── GUGUbot
 │   │   ├── font
 │   │   ├── ban_word.json
 │   │   ├── bound.jpg
-│   │   ├── config.yml
+│   │   ├── config.yml # PF-gugubot 配置文件
 │   │   ├── GUGUbot.json
 │   │   ├── help_msg.json
 │   │   ├── key_word_ingame.json
@@ -38,16 +35,16 @@ MCDR
 │   │   ├── shenheman.json
 │   │   ├── start_commands.json
 │   │   └── uuid_qqid.json
+│   ├── cq_qq_api
+│   │   ├── config.json # PF-cq-api 配置文件
+│   │   └── config_lang.json
 │   └── player_ip_logger
 │       └── config.json
-├── plugins
+├── plugins #插件文件位置
 │   ├── cq_qq_api.mcdr
 │   ├── GUGUbot.mcdr
-│   ├── MoreGameEvents.mcdr
-│   ├── OnlinePlayerAPI.mcdr
-│   ├── player_ip_logger.mcdr
-│   └── WhitelistAPI.mcdr
-├── logs
+│   ...
+├── logs #MCDR 日志
 ├── server
 ├── config.yml
 └── permission.yml
