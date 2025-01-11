@@ -2,26 +2,29 @@
 
 export const sidebarZh = [
   {
-    text: 'PF-plugins',
+    text: 'PF-gugubot',
     collapsible: true,
     children: [
       {
-        text: 'PF-gugubot',
+        text: '开始前的工作',
+        collapsible: true,
+        link: '/PF-gugubot/guide/before-started.md',
+      },
+      {
+        text: '快速开始',
+        collapsible: true,
+        link: '/PF-gugubot/guide/getting-started.md',
+      },
+      {
+        text: '高级配置',
         collapsible: true,
         children: [
           {
-            text: '开始前的工作',
-            collapsible: true,
-            link: '/PF-gugubot/guide/before-started.md',
-          },
-          {
-            text: '快速开始',
-            collapsible: true,
-            link: '/PF-gugubot/guide/getting-started.md',
+            text: '目录结构',
+            link: '/PF-gugubot/config/',
           },
           {
             text: 'Config.yml',
-            collapsible: true,
             link: '/PF-gugubot/config/config.md',
           },
           {
@@ -31,49 +34,49 @@ export const sidebarZh = [
           },
         ],
       },
+    ],
+  },
+  {
+    text: 'PF-cq-api',
+    collapsible: true,
+    children: [
       {
-        text: 'PF-cq-api',
-        collapsible: true,
-        children: [
-          {
-            text: '安装',
-            collapsed: true,
-            link: '/PF-cq-api/guide/getting-started.md',
-          },
-          {
-            text: '配置',
-            collapsed: true,
-            link: '/PF-cq-api/guide/config.md',
-          },
-        ],
+        text: '安装',
+        collapsed: true,
+        link: '/PF-cq-api/guide/getting-started.md',
       },
       {
-        text: 'PF-webui',
-        collapsible: true,
-        children: [
-          {
-            text: '安装',
-            link: '/PF-webui/guide/getting-started.md',
-          },
-          {
-            text: '配置',
-            link: '/PF-webui/guide/config.md',
-          },
-        ],
+        text: '配置',
+        collapsed: true,
+        link: '/PF-cq-api/guide/config.md',
+      },
+    ],
+  },
+  {
+    text: 'PF-webui',
+    collapsible: true,
+    children: [
+      {
+        text: '安装',
+        link: '/PF-webui/guide/getting-started.md',
       },
       {
-        text: 'PF-player_ip_logger',
-        collapsible: true,
-        children: [
-          {
-            text: '安装',
-            link: '/PF-player_ip_logger/guide/getting-started.md',
-          },
-          {
-            text: '配置',
-            link: '/PF-player_ip_logger/guide/config.md',
-          },
-        ],
+        text: '配置',
+        link: '/PF-webui/guide/config.md',
+      },
+    ],
+  },
+  {
+    text: 'PF-player_ip_logger',
+    collapsible: true,
+    children: [
+      {
+        text: '安装',
+        link: '/PF-player_ip_logger/guide/getting-started.md',
+      },
+      {
+        text: '配置',
+        link: '/PF-player_ip_logger/guide/config.md',
       },
     ],
   },
