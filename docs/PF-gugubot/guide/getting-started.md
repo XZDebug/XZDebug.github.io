@@ -1,4 +1,4 @@
-# 安装指南
+# 快速安装
 
 ## 安装插件
 
@@ -18,37 +18,27 @@
    - [PF-player_ip_logger](https://mcdreforged.com/zh-CN/plugin/player_ip_logger)
    - [mg_events](https://mcdreforged.com/zh-CN/plugin/mg_events)
 
-## 配置文件
-   配置文件位置如图
+## 基础配置
+   进行基础配置所要调整的文件位置如图:
    ```shell
    MCDR
    ├── config
    │   ├── GUGUbot
    │   │   ├── font
-   │   │   ├── ban_word.json
-   │   │   ├── bound.jpg
    │   │   ├── config.yml # PF-gugubot 配置文件
-   │   │   ├── GUGUbot.json
-   │   │   ├── help_msg.json
-   │   │   ├── key_word_ingame.json
-   │   │   ├── key_word.json
-   │   │   ├── shenheman.json
-   │   │   ├── start_commands.json
-   │   │   └── uuid_qqid.json
+   │   │   ...
    │   ├── cq_qq_api
    │   │   ├── config.json # PF-cq-api 配置文件
-   │   │   └── config_lang.json
-   │   └── player_ip_logger
-   │       └── config.json
+   │   │   ...
+   │   ...
    ├── plugins #插件文件位置
    │   ├── cq_qq_api.mcdr
    │   ├── GUGUbot.mcdr
    │   ...
-   ├── logs #MCDR 日志
-   ├── server
-   ├── config.yml
-   └── permission.yml
+   ...
    ```
+   ### 配置 PF-gugubot
+   找到 `/config/GUGUbot/config.yml` ，以以下格式填写 admin_id, group_id:
    ```yaml
    admin_id: # 管理员 QQ 号,请以相同格式填写！
    #正确示范：
@@ -60,14 +50,18 @@
    group_id: # QQ 群号,要监听,转发的 QQ 群号,格式同上。
    - 1234561
    ```
-   如果启动时提示缺少配置文件，请下载 `config_default.yml` 文件，将其重命名为 `config.yml`，并放入 `/config/GUGUbot/config.yml` 路径下。
 
-   ### PF-cq_qq_api 
+   ### 配置 PF-cq_qq_api 
+   找到 `/config/cq_qq_api/config.json`,填写相关选项。
    ```json
    {
-       "host": "127.0.0.1", // 更改为 QQ 机器人地址 *
-       "port": 8080, // 正向 WebSocket 端口 *
-   }
+    "host": "127.0.0.1", //更改为 QQ 机器人的ip地址
+    "port": 8080, //设置为正向 WebSocket 端口
+    "post_path": "", //对应数据上报的终点名(不知道用途不要动！)
+    "token": "", //对应数据上报的token，用于加密信息
+    "language": "zh", //语言包[zh/en](不知道用途不要动！)
+   ...
+}
    ```
 
-   上述配置为必要项。如果需要更深入的自定义体验，请阅读完整的[配置文档](../config/config.md)。
+   上述配置为必要项,如果需要更深入的自定义体验，请阅读完整的[Config.yml](../config/)

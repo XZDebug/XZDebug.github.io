@@ -1,1 +1,1 @@
-   FP-gugubot 是基于 [MCDReforged](https://mcdreforged.com/zh-CN) 的 QQ 机器人插件，点击左侧开始吧！
+   FP-gugubot 是基于 [MCDReforged](https://mcdreforged.com/zh-CN) 的 QQ 机器人插件，本文档由[Dreamwxz](https://github.com/Dreamwxz)维护和编写，在这里小小的吐槽一句，维护这个文档的时候，感觉作者的原文档感觉就是一坨，虽然我自己维护的也是一坨就是了(手动狗头保命)现在请点击左侧开始我们的旅途吧！

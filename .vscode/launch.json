@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "VuePress: Development",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/vuepress/bin/vuepress.js",
+      "args": [
+        "dev",
+        "docs"
+      ],
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "node",
+      "timeout": 30000
+    },
+    {
+      "name": "VuePress: Build",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/vuepress/bin/vuepress.js",
+      "args": [
+        "build",
+        "docs"
+      ],
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "node",
+      "timeout": 30000
+    }
+  ]
+}

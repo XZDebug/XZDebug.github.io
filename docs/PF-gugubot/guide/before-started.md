@@ -10,18 +10,18 @@
 ## 安装相关内容
 
 ### 安装 MCDR
-   请参阅MCDReforged的[安装](https://docs.mcdreforged.com/zh-cn/latest/quick_start/install.html)章节。
+   请参阅 MCDReforged 的[安装](https://docs.mcdreforged.com/zh-cn/latest/quick_start/install.html)章节。
 ### 安装 QQBOT
    - 推荐项目:[NapCatQQ](https://napneko.github.io)、[LLOneBot](https://llonebot.github.io)(以下以 NapCatQQ 作为教程)
    1. 安装 NapCatQQ  
    参考官方文档的[安装方式](https://napneko.github.io/guide/install)进行安装,推荐使用[NapCat.Win.绿色版本](https://github.com/NapNeko/NapCatQQ/releases)  
    2. 启动 NapCatQQ  
-   解压好下载后的文件，点击 NapCatWinBootMain.exe 启动 NapCat ,如果需要快速启动,请新建 bat 文件写入如下例子 :
+   解压好下载后的文件，点击 `NapCatWinBootMain.exe` 启动 NapCat ,如果需要快速启动,请在 NapCat 根目录新建 `run.bat` 文件写入如下例子 :
    ```bat
-   NapCatWinBootMain.exe 你的QQ号
+   NapCatWinBootMain.exe 你想要快速登录的QQ号
    ```
    3. 开启正向 WS  
    
    ::: warning 注意
-   请开启 QQ 机器人的 WebSocket 服务端（正向 WS 连接），配置到**未被占用**的端口，并将上报格式设置为 String 类型！
+   请配置到**未被占用**的端口，并将上报格式设置为 String 类型！
    :::
