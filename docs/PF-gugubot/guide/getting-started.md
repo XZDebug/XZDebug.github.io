@@ -21,34 +21,35 @@
 ## 配置文件
    配置文件位置如图
    ```shell
-MCDR
-├── config
-│   ├── GUGUbot
-│   │   ├── font
-│   │   ├── ban_word.json
-│   │   ├── bound.jpg
-│   │   ├── config.yml # PF-gugubot 配置文件
-│   │   ├── GUGUbot.json
-│   │   ├── help_msg.json
-│   │   ├── key_word_ingame.json
-│   │   ├── key_word.json
-│   │   ├── shenheman.json
-│   │   ├── start_commands.json
-│   │   └── uuid_qqid.json
-│   ├── cq_qq_api
-│   │   ├── config.json # PF-cq-api 配置文件
-│   │   └── config_lang.json
-│   └── player_ip_logger
-│       └── config.json
-├── plugins #插件文件位置
-│   ├── cq_qq_api.mcdr
-│   ├── GUGUbot.mcdr
-│   ...
-├── logs #MCDR 日志
-├── server
-├── config.yml
-└── permission.yml
+   MCDR
+   ├── config
+   │   ├── GUGUbot
+   │   │   ├── font
+   │   │   ├── ban_word.json
+   │   │   ├── bound.jpg
+   │   │   ├── config.yml # PF-gugubot 配置文件
+   │   │   ├── GUGUbot.json
+   │   │   ├── help_msg.json
+   │   │   ├── key_word_ingame.json
+   │   │   ├── key_word.json
+   │   │   ├── shenheman.json
+   │   │   ├── start_commands.json
+   │   │   └── uuid_qqid.json
+   │   ├── cq_qq_api
+   │   │   ├── config.json # PF-cq-api 配置文件
+   │   │   └── config_lang.json
+   │   └── player_ip_logger
+   │       └── config.json
+   ├── plugins #插件文件位置
+   │   ├── cq_qq_api.mcdr
+   │   ├── GUGUbot.mcdr
+   │   ...
+   ├── logs #MCDR 日志
+   ├── server
+   ├── config.yml
+   └── permission.yml
    ```
+   ```yaml
    admin_id: # 管理员 QQ 号,请以相同格式填写！
    #正确示范：
    - 1234563
