@@ -7,6 +7,10 @@
    ```text
    !!MCDR plugin install gugubot
    ```
+   PF-WebUi是为MCDR提供一个在线 WebUI 管理界面和 MCDR 插件管理和表单配置功能 (可用在线编辑器), 安装 WebUI 可以让你更方便的配置和管理 MC服务器和 MCDR, 但是目前仍处于开发中
+   ```text
+   !!MCDR plugin install guguwebui #这并不是必须项
+   ```
 ### 手动下载安装
 1. 下载插件依赖
    ```bash

@@ -7,16 +7,15 @@
    3. 因为 FP-gugubot 需要接受和发送 QQ 消息，至少需要一个基于 OneBot 11 正向 WS 协议标准的 QQ 机器人。(推荐项目: [NapCatQQ](https://napneko.github.io)、[LLOneBot](https://llonebot.github.io))
    4. 亿点点耐心(加油，相信你可以的！)
 
-## 安装相关内容
 
-### MCDR 相关
+## 配置 MCDR
    请参阅 MCDReforged 的[安装](https://docs.mcdreforged.com/zh-cn/latest/quick_start/install.html)章节。
-### QQBOT 相关
+## 配置 QQBot
    推荐项目:[NapCatQQ](https://napneko.github.io)、[LLOneBot](https://llonebot.github.io)  
    安装和配置 QQBOT 部分暂以 [NapCat.Win.无头绿色版](https://github.com/NapNeko/NapCatQQ/releases) 作为入门教程。
-#### 安装 NapCat
+### 安装 NapCat
    请参考官方文档的[NapCat.Win.绿色版本](https://napneko.github.io/guide/boot/Shell#napcat-win-%E7%BB%BF%E8%89%B2%E7%89%88%E6%9C%AC)进行安装,推荐使用[NapCat.Win.无头绿色版](https://github.com/NapNeko/NapCatQQ/releases)  
-   2. 启动 NapCatQQ  
+   1. 启动 NapCatQQ  
    解压好下载后的文件，点击 `napcat.bat` 启动 NapCat ,如果需要快速启动,请在登录一次后，编辑 NapCat 根目录下的 `napcat.quick.bat` 文件将 “10086” 替换为需要快速登录的 QQ 号:
    ```bat
    @echo off
@@ -24,7 +23,7 @@
    .\NapCatWinBootMain.exe 需要快速登录的 QQ 号
    pause
    ```
-#### 开启 WS 服务端端口
+### 开启 WS 服务端端口
    可参考官方教程的基础配置:[基础配置](https://napneko.icu/config/basic)  
    1. 打开 NapCat WebUi  
    找到 NapCat 按住 Ctrl 点击日志中的链接或者将链接复制到浏览器打开 NapCat WebUi:
