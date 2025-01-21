@@ -17,6 +17,7 @@
    - [PF-cq_qq_api](https://mcdreforged.com/zh-CN/plugin/cq_qq_api)
    - [PF-player_ip_logger](https://mcdreforged.com/zh-CN/plugin/player_ip_logger)
    - [mg_events](https://mcdreforged.com/zh-CN/plugin/mg_events)
+   - (可选)[PF-WebUi](tps://mcdreforged.com/zh-CN/plugin/guguwebui)
 
 ## 基础配置
    进行基础配置所要调整的文件位置如图:
