@@ -1,16 +1,48 @@
 # 高级配置
 
-## 完整文件目录
-   ```text
- ban_word.json
-bound.jpg
-config.yml
- font
- GUGUbot.json
-help_msg.json
-key_word_ingame.json
- key_word.json
-shenheman.json
-start_commands.json
-uuid_qqid.json
-   ```
+## 文件说明文档
+注:关于自定义风格可参照[此处](./extra_style.md)。
+### ban_word.json
+功能: 存储违禁词列表，用于过滤或屏蔽不允许的词汇。  
+内容: 包含一个 JSON 格式的词汇数组，可能带有敏感级别或分类。  
+
+### bound.jpg
+功能: 用于绑定操作的提示图。  
+内容: 图片文件，通常是用于指导用户完成绑定的视觉提示。  
+
+### config.yml
+功能: 配置文件，管理程序的全局设置。  
+内容: 使用 YAML 格式，存储诸如路径、开关、端口号等关键配置参数。  
+详情：可见[此处](./config.md)
+### font
+功能: 存储字体文件。  
+内容: 包含字体文件（如 .ttf），供程序渲染文本时使用。  
+
+### GUGUbot.json
+功能: GUGUbot 的主配置文件。  
+内容: 使用 JSON 格式，存储程序运行时的核心设置和参数。  
+
+### help_msg.json
+功能: 定义帮助信息。  
+内容: 包含用户可调用的指令说明和帮助提示，通常以 JSON 格式存储。  
+
+### key_word_ingame.json
+功能: 游戏内关键词配置文件。  
+内容: 包含用于游戏环境中匹配或触发的关键词及其功能定义。  
+
+### key_word.json
+功能: 通用关键词配置文件。  
+内容: 存储与功能绑定的关键词及其响应，适用于非游戏环境。  
+
+### shenheman.json
+功能: 审核员信息文件。  
+内容: 包含审核员的身份信息、权限及相关设置。  
+
+### start_commands.json
+功能: 开服指令配置文件。  
+内容: 定义服务器启动时执行的指令列表及其参数。  
+
+### uuid_qqid.json
+功能: 用户 UUID 与 QQ 号的映射文件。  
+内容: 以 JSON 格式存储用户 UUID 和 QQ 号的关联信息，用于身份验证或管理。  
+
