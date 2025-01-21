@@ -4,7 +4,7 @@
 
 ### MCDR 快捷安装
 - 在已经开启的 MCDReforged MC 服务端输入以下指令可快捷安装插件及前置：
-   ```
+   ```text
    !!MCDR plugin install gugubot
    ```
 ### 手动下载安装
@@ -55,8 +55,8 @@
    找到 `/config/cq_qq_api/config.json`,填写相关选项。
    ```json
    {
-    "host": "127.0.0.1", //更改为 QQ 机器人的ip地址
-    "port": 8080, //设置为正向 WebSocket 端口
+    "host": "127.0.0.1", //更改为 QQ 机器人的 IP地址
+    "port": 8080, //设置为 WebSocket 服务端端口
     "post_path": "", //对应数据上报的终点名(不知道用途不要动！)
     "token": "", //对应数据上报的token，用于加密信息
     "language": "zh", //语言包[zh/en](不知道用途不要动！)
