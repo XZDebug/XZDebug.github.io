@@ -10,4 +10,4 @@
    ```bash
    pip install fastapi javaproperties passlib pydantic Requests ruamel.yaml starlette uvicorn
    ```
-   2. 前往插件 [MCDR 插件仓库](https://mcdreforged.com/zh-CN/plugin/guguwebui) 下载最新版插件并放入 MCDR 根目录下的 `plugins` 文件夹:
+   2. 前往插件 [MCDR 插件仓库](https://mcdreforged.com/zh-CN/plugin/guguwebui) 下载最新版插件并放入 MCDR 根目录下的 `plugins` 文件夹。
