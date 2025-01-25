@@ -15,6 +15,7 @@ export const sidebarZh = [
       },
       {
         text: '高级配置',
+        collapsible: true,
         children: [
           {
             text: '目录结构',
@@ -48,6 +49,7 @@ export const sidebarZh = [
   },
   {
     text: 'PF-webui',
+    collapsible: true,
     children: [
       {
         text: '安装',
@@ -55,6 +57,7 @@ export const sidebarZh = [
       },
       {
         text: '配置',
+
         link: '/PF-webui/guide/config.md',
       },
     ],
