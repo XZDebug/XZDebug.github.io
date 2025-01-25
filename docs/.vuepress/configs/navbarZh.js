@@ -32,6 +32,19 @@ export const navbarZh = [
   },
   {
     text: 'Github',
-    link: 'https://github.com/LoosePrince/',
+    children: [
+      {
+        text: 'PF-gugubot',
+        link: 'https://github.com/LoosePrince/PF-GUGUBot'
+      },
+      {
+        text: 'PF-cq-api',
+        link: 'https://github.com/XueK66/PF-cq_qq_api',
+      },
+      {
+        text: 'PF-webui',
+        link: 'https://github.com/LoosePrince/PF-MCDR-WebUI',
+      },
+    ],
   },
 ]

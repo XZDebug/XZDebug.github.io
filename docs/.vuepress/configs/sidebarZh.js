@@ -29,7 +29,6 @@ export const sidebarZh = [
           },
           {
             text: '关于自定义风格',
-            collapsible: true,
             link: '/PF-gugubot/config/extra_style.md',
           },
         ],
@@ -42,12 +41,10 @@ export const sidebarZh = [
     children: [
       {
         text: '安装',
-        collapsed: true,
         link: '/PF-cq-api/guide/getting-started.md',
       },
       {
         text: '配置',
-        collapsed: true,
         link: '/PF-cq-api/guide/config.md',
       },
     ],
@@ -71,21 +68,7 @@ export const sidebarZh = [
     link: '/support/',
   },
   {
-    text: '资源链接',
-    collapsible: true,
-    children: [
-      {
-        text: '官方文档',
-        link: 'https://v2.vuepress.vuejs.org/zh/',
-      },
-      {
-        text: 'GitHub 仓库',
-        link: 'https://github.com/vuepress/vuepress-next',
-      },
-      {
-        text: '社区交流',
-        link: 'https://discord.com/invite/HBherRA',
-      },
-    ],
+    text: '关于文档',
+    link: '/about/',
   },
 ];
