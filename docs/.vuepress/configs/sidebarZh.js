@@ -67,20 +67,6 @@ export const sidebarZh = [
     ],
   },
   {
-    text: 'PF-player_ip_logger',
-    collapsible: true,
-    children: [
-      {
-        text: '安装',
-        link: '/PF-player_ip_logger/guide/getting-started.md',
-      },
-      {
-        text: '配置',
-        link: '/PF-player_ip_logger/guide/config.md',
-      },
-    ],
-  },
-  {
     text: '支持与反馈',
     link: '/support/',
   },

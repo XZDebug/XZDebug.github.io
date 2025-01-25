@@ -7,10 +7,6 @@
    ```text
    !!MCDR plugin install gugubot
    ```
-   PF-WebUi是为MCDR提供一个在线 WebUI 管理界面和 MCDR 插件管理和表单配置功能 (可用在线编辑器), 安装 WebUI 可以让你更方便的配置和管理 MC服务器和 MCDR, 但是目前仍处于开发中
-   ```text
-   !!MCDR plugin install guguwebui #这并不是必须项
-   ```
 ### 手动下载安装
 1. 下载插件依赖
    ```bash
@@ -21,7 +17,6 @@
    - [PF-cq_qq_api](https://mcdreforged.com/zh-CN/plugin/cq_qq_api)
    - [PF-player_ip_logger](https://mcdreforged.com/zh-CN/plugin/player_ip_logger)
    - [mg_events](https://mcdreforged.com/zh-CN/plugin/mg_events)
-   - (可选)[PF-WebUi](tps://mcdreforged.com/zh-CN/plugin/guguwebui)
 
 ## 基础配置
    进行基础配置所要调整的文件位置如图:
@@ -65,8 +60,8 @@
     "post_path": "", //对应数据上报的终点名(不知道用途不要动！)
     "token": "", //对应数据上报的token，用于加密信息
     "language": "zh", //语言包[zh/en](不知道用途不要动！)
-   ...
-}
+   }
    ```
-
-   上述配置为必要项,如果需要更深入的自定义体验，请阅读完整的[Config.yml](../config/)
+   ::: tip Tip
+   配置过于麻烦？来试试[PF-webui](/PF-webui/)！
+   :::

@@ -20,10 +20,6 @@ export const navbarZh = [
         text: 'PF-webui',
         link: '/PF-webui/',
       },
-      {
-        text: 'PF-webui',
-        link: '/PF-webui/',
-      },
     ],
   },
   {

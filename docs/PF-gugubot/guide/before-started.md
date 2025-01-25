@@ -23,17 +23,17 @@
    .\NapCatWinBootMain.exe 需要快速登录的 QQ 号
    pause
    ```
-### 开启 WS 服务端端口
-   可参考官方教程的基础配置:[基础配置](https://napneko.icu/config/basic)  
+### 开启 WS 服务端
+   可参考官方教程的[基础配置](https://napneko.icu/config/basic)。 
    1. 打开 NapCat WebUi  
-   找到 NapCat 按住 Ctrl 点击日志中的链接或者将链接复制到浏览器打开 NapCat WebUi:
+   找到 NapCat 按住 Ctrl 点击日志中如下链接或者通过将链接复制到浏览器打开 NapCat WebUi:
    ```text
    xx-xx xx:xx:xx [info] [NapCat] [WebUi] WebUi Local Panel Url: http://127.0.0.1:6099/webui?token=xxxxxxxxxxx
    ```
    点击网页中的登录即可进入设置页面  
 
    2. 配置 WebSocket 服务端设置  
-   点击 `网络配置`，然后点击右上角的 `添加配置`,输入名称，类型选择 `WebSocket 服务器`,勾选 `启用`,消息格式设置为 `String`,然后点击确定。
+   点击 `网络配置`，然后点击右上角的 `添加配置`,输入 `名称`，类型选择 `WebSocket 服务器`,勾选 `启用`,消息格式设置为 `String`,然后点击 `确定`。
    ::: warning 注意
    如遇到端口冲突，请配置到**未被占用**的端口！
    :::
