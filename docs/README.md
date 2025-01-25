@@ -17,9 +17,6 @@ features:
   - title: PF-cq-api
     details: MCDR的QQ机器人API插件，支持OneBot协议的正向WebSocketQQ。
     link: /PF-cq-api/
-  - title: PF-player_ip_logger
-    details: MCDR的玩家IP记录插件，额外提供API和基于IP的玩家封禁功能。
-    link: /PF-player_ip_logger/
 ---
 
 # PFingan系列插件
@@ -36,9 +33,6 @@ MCDR的WebUI管理插件，管理PF系列插件配置和其它配置，提供插
 
 ### [PF-cq-api](./PF-cq-api/)
 MCDR的QQ机器人API插件，支持OneBot协议的正向WebSocketQQ。
-
-### [PF-player_ip_logger](./PF-player_ip_logger/)
-MCDR的玩家IP记录插件，额外提供API和基于IP的玩家封禁功能。
 
 > GPL-3.0 Licensed | Copyright © 2022-present PF-plugins
 
