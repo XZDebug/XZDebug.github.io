@@ -21,14 +21,17 @@ export const sidebarZh = [
         children: [
           {
             text: '目录结构',
+            collapsible: true,
             link: '/PF-gugubot/config/',
           },
           {
             text: 'Config.yml',
+            collapsible: true,
             link: '/PF-gugubot/config/config.md',
           },
           {
             text: '关于自定义风格',
+            collapsible: true,
             link: '/PF-gugubot/config/extra_style.md',
           },
         ],
@@ -41,10 +44,12 @@ export const sidebarZh = [
     children: [
       {
         text: '安装',
+        collapsible: true,
         link: '/PF-cq-api/guide/getting-started.md',
       },
       {
         text: '配置',
+        collapsible: true,
         link: '/PF-cq-api/guide/config.md',
       },
     ],
@@ -55,10 +60,12 @@ export const sidebarZh = [
     children: [
       {
         text: '安装',
+        collapsible: true,
         link: '/PF-webui/guide/getting-started.md',
       },
       {
         text: '配置',
+        collapsible: true,
         link: '/PF-webui/guide/config.md',
       },
     ],
