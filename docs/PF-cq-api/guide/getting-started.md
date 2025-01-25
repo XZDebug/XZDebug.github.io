@@ -10,4 +10,4 @@
    ```bash
    pip install websocket-client
    ```
-   2. 前往插件 [MCDR 插件仓库](https://mcdreforged.com/zh-CN/plugin/cq_qq_api) 下载最新版插件并放入 MCDR 根目录下的 `plugins` 文件夹:
+   2. 前往插件 [MCDR 插件仓库](https://mcdreforged.com/zh-CN/plugin/cq_qq_api) 下载最新版插件并放入 MCDR 根目录下的 `plugins` 文件夹。
