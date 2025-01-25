@@ -7,6 +7,6 @@
 4. 然后使用以下指令重载 PF-gugubot 开始切换叭!
 ``` text
 !!MCDR plugin reload gugubot
-```
-## 标准文件
+```  
+以下是标准文件  
 @[code](../files/extra_style.json)
