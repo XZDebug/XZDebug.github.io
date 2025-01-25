@@ -59,7 +59,7 @@ bot.send_group_msg(group_id, message)
 > | token | "" | 对应数据上报的token，用于加密信息 |
 > | language | "zh" | 语言包[zh/en] |
 > | max_wait_time | 10 | 最长等待QQAPI的时间（秒） |
-```
+```json
 {
     "host": "127.0.0.1",
     "port": 8080,
