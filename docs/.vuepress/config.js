@@ -21,4 +21,10 @@ export default defineUserConfig({
   ],
 
   bundler: viteBundler(),
+
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ]
 })
